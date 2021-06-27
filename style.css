@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+
+
+#web-container {
+  margin: 1em;
+}
+
+.btn {
+  @apply py-2 px-4 font-semibold rounded-lg shadow-md;
+}
+.btn-green {
+  @apply text-white bg-green-500 hover:bg-green-700;
+}
