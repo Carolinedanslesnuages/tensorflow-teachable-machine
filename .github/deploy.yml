@@ -1,7 +1,12 @@
-name: Deploy keyboard-input-vue3
+name: Deploy human or pets
 
-on: [push]
-
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
 jobs:
   build:
     runs-on: ubuntu-latest
