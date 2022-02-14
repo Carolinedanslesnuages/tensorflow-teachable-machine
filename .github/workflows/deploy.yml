@@ -16,7 +16,7 @@ jobs:
       - name: Install surge and fire deployment
         uses: actions/setup-node@v1
         with:
-         node-version: '14.5.0'
+          node-version: 14
       - name: Install Packages and Build Application
         run: |
           npm install
